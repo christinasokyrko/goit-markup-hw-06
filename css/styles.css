@@ -55,7 +55,7 @@ header {
   letter-spacing: 0.02em;
 }
 
-.contact-item {
+.contact-link {
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -65,8 +65,8 @@ header {
   color: #404bbf;
 }
 
-.contact-item:hover,
-.contact-item:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
   text-decoration: underline;
 }
