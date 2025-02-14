@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #434455;
   background-color: #ffffff;
@@ -23,19 +23,19 @@ header {
   color: #2e2f42;
 }
 
-.logo,
-.footer-logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-family: inherit;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
   text-transform: uppercase;
 }
 
-.logo-web {
-  color: #4d5ae5;
+.logo-studio {
+  color: #2e2f42;
 }
 
 .header-nav,
@@ -43,12 +43,26 @@ header {
   font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
-  text-align: left;
+  letter-spacing: 0.02em;
 }
 
-.header-nav {
+.contact-info {
+  font-style: normal;
+}
+
+.nav-item {
   font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.contact-item {
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  color: #404bbf;
 }
 
 .contact-item:hover,
@@ -68,8 +82,7 @@ footer {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 2%;
-  text-align: center;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
@@ -78,7 +91,7 @@ footer {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
   border: none;
@@ -101,8 +114,7 @@ footer {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1;
-  letter-spacing: 2%;
-  text-align: center;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -113,7 +125,7 @@ footer {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -123,7 +135,7 @@ footer {
   font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -131,10 +143,9 @@ footer {
   font-family: inherit;
   font-family: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
-.footer-logo,
 .footer-text {
   color: #f4f4fd;
 }
