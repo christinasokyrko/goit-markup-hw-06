@@ -1,0 +1,140 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  font-weight: 400;
+  color: #434455;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #e7e9fc;
+  color: #2e2f42;
+}
+
+.logo,
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+}
+
+.logo-web {
+  color: #4d5ae5;
+}
+
+.header-nav,
+.contact-info {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  text-align: left;
+}
+
+.header-nav {
+  font-weight: 500;
+}
+
+.contact-item:hover,
+.contact-item:focus {
+  color: #404bbf;
+  text-decoration: underline;
+  transform: translateY(-2px);
+}
+
+.hero,
+footer {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  font-family: inherit;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-button {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+  outline: none;
+  transform: translateY(-2px);
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.section-title {
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.feature-title,
+.team-name,
+.portfolio-title {
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+
+.feature-text,
+.team-role,
+.portfolio-category {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.footer-text {
+  font-family: inherit;
+  font-family: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+
+.footer-logo,
+.footer-text {
+  color: #f4f4fd;
+}
