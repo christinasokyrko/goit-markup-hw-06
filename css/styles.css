@@ -8,15 +8,42 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 ul {
   list-style: none;
+  padding: 0;
+}
+
+section {
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.container {
+  width: 1158px;
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 header {
-  background-color: #e7e9fc;
   color: #2e2f42;
+  border-bottom: 1px solid #4d5ae5;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo,
@@ -40,6 +67,18 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 76px;
+}
+
+.nav-list,
+.contact-list {
+  display: flex;
+  gap: 40px;
 }
 
 .contact-info {
@@ -72,14 +111,21 @@ footer {
   background-color: #2e2f42;
 }
 
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .hero-title {
   font-family: inherit;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #ffffff;
+  width: 496px;
 }
 
 .hero-button {
@@ -91,6 +137,10 @@ footer {
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
+  margin-top: 20px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
@@ -113,6 +163,17 @@ footer {
   text-transform: capitalize;
 }
 
+.features-list,
+.team-list,
+.portfolio-list {
+  display: flex;
+  gap: 24px;
+}
+
+.feature-item {
+  width: 264px;
+}
+
 .feature-title,
 .team-name,
 .portfolio-title {
@@ -124,8 +185,15 @@ footer {
   color: #2e2f42;
 }
 
+.card-bottom-text {
+  padding: 32px 16px 32px 16px;
+}
+
 .team-member {
   background-color: #ffffff;
+  text-align: center;
+  padding: 16px;
+  border-radius: 4px;
 }
 
 .feature-text,
@@ -138,12 +206,34 @@ footer {
   color: #434455;
 }
 
+.portfolio-list {
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  padding-bottom: 20px;
+  flex: 1 1 calc(33.333% - 16px);
+  box-sizing: border-box;
+}
+
+.portfolio-description {
+  border-left: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
+
+.footer-container {
+  flex-direction: column;
+  padding: 40px 0;
+}
+
 .footer-text {
   font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
 }
 
 .footer-logo-studio {
