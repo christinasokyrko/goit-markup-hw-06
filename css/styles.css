@@ -40,15 +40,13 @@ header {
   color: #2e2f42;
 }
 
-.header-container {
-  width: 1158px; 
-}
-
 .website-header {
+  width: 1158px; 
   border-bottom: 1px solid #e7e9fc
 }
 
 .header-container {
+  width: 1158px; 
   display: flex;
   justify-content: space-between;
 }
