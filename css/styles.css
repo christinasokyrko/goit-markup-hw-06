@@ -25,7 +25,6 @@ section {
 
 .container {
   width: 1158px;
-  max-width: 1128px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -46,7 +45,6 @@ header {
 }
 
 .header-container {
-  width: 1158px; 
   display: flex;
   justify-content: space-between;
 }
