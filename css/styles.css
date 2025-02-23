@@ -5,16 +5,24 @@ body {
   background-color: #ffffff;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-bottom: 48px;
+}
+
 a {
   text-decoration: none;
   color: inherit;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 section {
@@ -40,13 +48,13 @@ header {
 }
 
 .website-header {
-  width: 1158px; 
   border-bottom: 1px solid #e7e9fc
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-nav {
@@ -83,7 +91,6 @@ header {
 .header-nav {
   display: flex;
   justify-content: space-between;
-  gap: 76px;
 }
 
 .nav-list,
@@ -97,6 +104,7 @@ header {
 }
 
 .nav-link {
+  display: block;
   font-weight: 500;
   letter-spacing: 0.02em;
   padding: 24px 0;
@@ -153,7 +161,6 @@ footer {
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
-  margin-top: 20px;
   padding: 16px 32px;
   border: none;
   border-radius: 4px;
@@ -202,7 +209,7 @@ footer {
 }
 
 .feature-item {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 
 .feature-title {
@@ -229,7 +236,6 @@ footer {
 .team-member {
   background-color: #ffffff;
   text-align: center;
-  padding: 16px;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -249,7 +255,6 @@ footer {
 }
 
 .portfolio-item {
-  padding-bottom: 20px;
   flex: 1 1 calc(33.333% - 16px);
   box-sizing: border-box;
 }
@@ -267,7 +272,6 @@ footer {
 
 .footer-container {
   flex-direction: column;
-  padding: 40px 0;
 }
 
 .footer-text {
