@@ -373,7 +373,7 @@ footer {
   overflow: hidden;
 }
 
-.portfolio-img-text {
+p.portfolio-img-text {
   position: absolute;
   top: 0;
   font-size: 16px;
@@ -417,6 +417,11 @@ footer {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   bottom: 0;
   transform: translateY(0%);
+}
+
+.portfolio-overlay {
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-link:hover {
