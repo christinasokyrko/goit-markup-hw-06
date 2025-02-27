@@ -288,8 +288,7 @@ footer {
 }
 
 .card-bottom-text {
-  padding: 32px 0 8px 0;
-  margin-bottom: 0;
+  padding: 32px 0;
 }
 
 .team-member {
@@ -301,7 +300,6 @@ footer {
 }
 
 .team-member-wrapper {
-  padding: 32px 0;
   width: 264px;
 }
 
@@ -319,7 +317,7 @@ footer {
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin: 8px 0 32px 0;
+  margin: 8px 0;
 }
 
 .social-icon {
@@ -337,7 +335,7 @@ footer {
   border-radius: 50%;
   background-color: #4d5ae5;
   color: #ffffff;
-  transition: background-color 0.3s ease;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
@@ -360,6 +358,7 @@ footer {
   position: relative;
   overflow: hidden;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .portfolio-item:hover {
@@ -373,7 +372,7 @@ footer {
   overflow: hidden;
 }
 
-p.portfolio-img-text {
+.portfolio-img-text {
   position: absolute;
   top: 0;
   font-size: 16px;
@@ -388,12 +387,8 @@ p.portfolio-img-text {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-link {
-  display: block;
-
-  text-decoration: none;
-  color: inherit;
-  transition: box-shadow 0.3s ease-in-out;
+.portfolio-img-text:hover {
+  transform: translateY(0%);
 }
 
 .portfolio-overlay {
