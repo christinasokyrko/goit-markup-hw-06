@@ -358,7 +358,6 @@ footer {
   position: relative;
   overflow: hidden;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .portfolio-item:hover {
@@ -387,7 +386,7 @@ footer {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-img-text:hover {
+.portfolio-item:hover .portfolio-img-text:hover {
   transform: translateY(0%);
 }
 
