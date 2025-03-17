@@ -17,11 +17,24 @@
   <body>
     <header class="website-header">
       <div class="container header-container">
-        <nav class="header-nav">
-          <a class="logo" href="./index.html"
-            >Web<span class="logo-studio">Studio</span></a
-          >
-          <ul class="nav-list">
+        
+       <a class="logo" href="./index.html"
+            >Web<span class="logo-studio">Studio</span></a>
+        <button class="menu-toggle" aria-label="Toggle menu">
+              <div class="menu-icon-wrapper">
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+                </svg>
+              </div>
+        </button>   
+     
+          <nav class="header-nav">
+            <button type="button" class="menu-close">
+              <svg class="icon close-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+              </svg>
+            </button>
+           <ul class="nav-list">
             <li class="nav-item">
               <a class="nav-link active" href="./index.html">Studio</a>
             </li>
@@ -32,13 +45,11 @@
               <a class="nav-link" href="">Contacts</a>
             </li>
           </ul>
-        </nav>
         <address class="contact-info">
           <ul class="contact-list">
             <li class="contact-item">
               <a class="contact-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+                >info@devstudio.com</a>
             </li>
             <li class="contact-item">
               <a class="contact-link" href="tel:+110001111111"
@@ -47,6 +58,53 @@
             </li>
           </ul>
         </address>
+        <ul class="menu-social-icons">
+          <li class="social-icon">
+            <a href="instagram.com" class="social-link">
+              <svg
+                class="icon social-media-icon"
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-icon">
+            <a href="twitter.com" class="social-link">
+              <svg
+                class="icon social-media-icon"
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-icon">
+            <a href="facebook.com" class="social-link">
+              <svg
+                class="icon social-media-icon"
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-icon">
+            <a href="linkedin.com" class="social-link">
+              <svg
+                class="icon social-media-icon"
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
       </div>
     </header>
 
@@ -120,10 +178,11 @@
           <ul class="team-list">
             <li class="team-member">
               <img
-                class="team-photo"
-                src="./images/teamcard-1.jpg"
-                alt="Mark Guerrero"
-                width="264">
+                 class="team-photo"
+                 src="./images/teamcard-1.jpg"
+                 srcset="./images/teamcard-1.jpg 1x, ./images/teamcard-1@2x.jpg 2x"
+                 alt="Mark Guerrero"
+                 width="264">
               <div class="card-bottom-text">
                 <h3 class="team-name">Mark Guerrero</h3>
                 <p class="team-role">Product Designer</p>
@@ -179,6 +238,7 @@
               <img
                 class="team-photo"
                 src="./images/teamcard-2.jpg"
+                srcset="./images/teamcard-2.jpg 1x, ./images/teamcard-2@2x.jpg 2x"
                 alt="Tom Ford"
                 width="264">
               <div class="card-bottom-text">
@@ -236,6 +296,7 @@
               <img
                 class="team-photo"
                 src="./images/teamcard-3.jpg"
+                srcset="./images/teamcard-3.jpg 1x, ./images/teamcard-3@2x.jpg 2x"
                 alt="Camila Garcia"
                 width="264">
               <div class="card-bottom-text">
@@ -293,6 +354,7 @@
               <img
                 class="team-photo"
                 src="./images/teamcard-4.jpg"
+                srcset="./images/teamcard-4.jpg 1x, ./images/teamcard-4@2x.jpg 2x"
                 alt="Daniel Wilson"
                 width="264">
               <div class="card-bottom-text">
@@ -359,6 +421,7 @@
                 <img
                   class="portfolio-image"
                   src="./images/portfolio-image-1.jpg"
+                  srcset="./images/portfolio-image-1.jpg 1x, ./images/portfolio-image-1@2x.jpg 2x"
                   alt="Banking App"
                   width="360">
                 <p class="portfolio-img-text">
@@ -379,6 +442,7 @@
                 <img
                   class="portfolio-image"
                   src="./images/portfolio-image-2.jpg"
+                  srcset="./images/portfolio-image-2.jpg 1x, ./images/portfolio-image-2@2x.jpg 2x"
                   alt="Cashless Payment"
                   width="360">
                 <p class="portfolio-img-text">
@@ -397,6 +461,7 @@
                 <img
                   class="portfolio-image"
                   src="./images/portfolio-image-3.jpg"
+                  srcset="./images/portfolio-image-3.jpg 1x, ./images/portfolio-image-3@2x.jpg 2x"
                   alt="Meditation App"
                   width="360">
                 <p class="portfolio-img-text">
@@ -415,6 +480,7 @@
                 <img
                   class="portfolio-image"
                   src="./images/portfolio-image-4.jpg"
+                  srcset="./images/portfolio-image-4.jpg 1x, ./images/portfolio-image-4@2x.jpg 2x"
                   alt="Taxi Service"
                   width="360">
                 <p class="portfolio-img-text">
@@ -433,6 +499,7 @@
                 <img
                   class="portfolio-image"
                   src="./images/portfolio-image-5.jpg"
+                  srcset="./images/portfolio-image-5.jpg 1x, ./images/portfolio-image-5@2x.jpg 2x"
                   alt="Screen Illustrations"
                   width="360"
                 >
@@ -452,6 +519,7 @@
                 <img
                   class="portfolio-image"
                   src="./images/portfolio-image-6.jpg"
+                  srcset="./images/portfolio-image-6.jpg 1x, ./images/portfolio-image-6@2x.jpg 2x"
                   alt="Online Courses"
                   width="360">
                 <p class="portfolio-img-text">
